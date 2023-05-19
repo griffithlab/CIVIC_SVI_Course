@@ -9,7 +9,7 @@ These credits are based on [course contributors guidelines described here](https
 |Credits|Names|
 |-------|-----|
 |**Pedagogy**||
-|Lead Content Instructor(s)|[Obi Griffith](https://griffithlab.org), [Malachi Griffith](https://griffithlab.org)|
+|Lead Content Instructor(s)|[Obi Griffith], [Malachi Griffith]|
 |Lecturer(s)| |
 |Content Author(s) | Arpad Danos|
 |Content Contributor(s) | Kilannin Krysiak|
@@ -36,3 +36,17 @@ These credits are based on [course contributors guidelines described here](https
 |**Funding**||
 |Funder(s)| Institution/individual who funded course including grant number|
 |Funding Staff| [National Cancer Institute (NCI)](https://www.cancer.gov/) U24CA237719|
+
+
+<!-- Author information -->
+
+[Obi Griffith]: https://griffithlab.org
+[Malachi Griffith]: https://griffithlab.org
+[John Muschelli]: https://johnmuschelli.com/
+[Candace Savonen]: https://www.cansavvy.com/
+[Carrie Wright]: https://carriewright11.github.io/
+[Ava Hoffman]: https://www.avahoffman.com/
+
+<!-- Links -->
+
+[ottrpal]: https://github.com/jhudsl/ottrpal
