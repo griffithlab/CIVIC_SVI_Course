@@ -8,6 +8,11 @@ ottrpal::set_knitr_image_path()
 
 ## Motivation
 
+```r{r, fig.alt="The variant interpretation bottleneck", echo = FALSE, outwidth = "100%"}
+ottrpal::include_slide(<https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_0>)
+```
+
+With the advent of massively parallel sequencing, millions of raw sequence reads can no be easily produced for a patient's tumor. Largely automated pipelines now exist to process these raw data, detect various types of molecular alterations (or variants), filter and review to identify high-confidence calls, and annotate these variants for functional significance. However, a major bottleneck remains at the variant interpretation stage. Genome analysts, molecular pathologists, clinical geneticists, laboratory geneticists and others are faced with a deluge of variants of potential relevance [-@Good2014]. These variants must be manually reviewed and intersected with a vast ecosystem of knowledgebases and biomedical literature to provide current interpretation of their relevance for clinical application.
 
 ## Target Audience  
 
