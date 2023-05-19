@@ -10,6 +10,7 @@ Dockerfile
 Dockerhub
 dropdown
 favicon
+fyi
 GDSCN
 GitHub
 Github
@@ -18,8 +19,9 @@ impactful
 ITCR
 itcrtraining
 ITN
-fyi
+knowledgebases
 Leanpub
+rmarkdown
 Markua
 mentorship
 NCI
