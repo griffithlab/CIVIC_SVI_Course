@@ -7,8 +7,8 @@
 
 This chapter will cover:  
 
-- {Introduction to the CIViC data model}
-- {Demo of the CIViC web interface}
+- Introduction to the CIViC data model
+- Demo of the CIViC web interface
 
 ## Introduction to the CIViC data model
 

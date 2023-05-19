@@ -15,4 +15,4 @@ favicon: assets/ITN_favicon.ico
 
 # About this Course {-}
 
-This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR funded [CIViC resource(https://civicdb.org).  This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/) U24CA237719.
+This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR funded [CIViC resource](https://civicdb.org). This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/) U24CA237719.

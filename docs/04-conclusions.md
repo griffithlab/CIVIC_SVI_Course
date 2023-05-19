@@ -7,8 +7,8 @@
 
 This chapter will summarize:
 
-- {Key conclusions of the course}
-- {Additional learning resources}
+- Key conclusions of the course
+- Additional learning resources
 
 ## Key conclusions 
 

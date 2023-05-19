@@ -7,9 +7,9 @@
 
 This chapter will cover:  
 
-- {AMP/ASCO/CAP guidelines}
-- {ClinGen/CGC/VICC SOP}
-- {Cancer Variant Knowledgebases and their limitations}
+- AMP/ASCO/CAP guidelines
+- ClinGen/CGC/VICC SOP
+- Cancer Variant Knowledgebases and their limitations
 
 ## AMP/ASCO/CAP guidelines
 
@@ -27,6 +27,6 @@ This section will introduce the Standards for the classification of pathogenicit
 
 ## Knowledgebases
 
-This section will introduce relevant resources for Somatic Cancer variant interpretation including [COSMIC](https://cancer.sanger.ac.uk/cosmic), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [oncoKB](https://www.oncokb.org/), others. 
+This section will introduce relevant resources for Somatic Cancer variant interpretation including [COSMIC](https://cancer.sanger.ac.uk/cosmic){target="_blank"}, [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/){target="_blank"}, [oncoKB](https://www.oncokb.org/){target="_blank"}, others. 
 
 
