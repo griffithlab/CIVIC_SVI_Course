@@ -1,9 +1,9 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: civic_intro, attempts: 10}
 
 ## Intro to Somatic Variant Interpretation quiz
 
-Put any other instructions your quiz takers need to know here like: Choose the best answer.
+Choose the best answer.
 
 {choose-answers: 4}
 ? What is an example of a cancer-specific variant database?
@@ -17,7 +17,7 @@ o) gnomAD
 {choose-answers: 4}
 ? Which of the following statements are correct
 1. Somatic cancer variants occur in tumor but not normal tissue
-2. The AMP/ASCO/CAP guidelines categorize variants into 4 tiers and 4 levels
+2. The AMP guidelines categorize variants into 4 tiers and 4 levels
 3. CIViC is both a knowledgebase and curation platform for interpreting somatic variants
 4. Precision oncology requires accurate, comprehensive and current interpretation of somatic variants
 5. ClinVar is a database of primarily cancer variants ?
