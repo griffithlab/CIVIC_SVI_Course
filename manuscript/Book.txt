@@ -1,6 +1,6 @@
 1-Introduction.md
 quiz_1.md
-2-Resources,-SOPs-and-Guidelines-for-the-Interpretation-of-Somatic-Variants.md
+2-Resources-for-the-Interpretation-of-Somatic-Variants.md
 3-Introduction-to-the-CIViC-knowledgebase.md
 4-Conclusions.md
 5-References.md
