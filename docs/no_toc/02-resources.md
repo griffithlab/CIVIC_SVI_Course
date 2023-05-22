@@ -1,5 +1,5 @@
 
-# Resources, SOPs and Guidelines for the Interpretation of Somatic Variants 
+# Resources for the Interpretation of Somatic Variants 
 
 
 
