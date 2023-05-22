@@ -1,5 +1,8 @@
 1-Introduction.md
-2-A-new-chapter.md
-3-References.md
+quiz_1.md
+2-Resources,-SOPs-and-Guidelines-for-the-Interpretation-of-Somatic-Variants.md
+3-Introduction-to-the-CIViC-knowledgebase.md
+4-Conclusions.md
+5-References.md
 About-this-Course.md
 About-the-Authors.md
