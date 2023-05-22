@@ -1,5 +1,5 @@
 
-# Resources, SOPs and Guidelines for the Interpretation of Somatic Variants 
+# Resources for the Interpretation of Somatic Variants 
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
