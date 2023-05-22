@@ -29,7 +29,7 @@ These credits are based on [course contributors guidelines described here](https
 |**Art and Design**||
 |Illustrator(s)| Josh McMichael|
 |Figure Artist(s)| Josh McMichael|
-|Videographer(s)| |
+|Videographer(s)| Arpad Danos |
 |Videography Editor(s)| |
 |Audiographer(s)| |
 |Audiography Editor(s)| |
