@@ -10,7 +10,7 @@ These credits are based on [course contributors guidelines described here](https
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor(s)|[Obi Griffith], [Malachi Griffith]|
-|Lecturer(s)| |
+|Lecturer(s)| Arpad Danos|
 |Content Author(s) | Arpad Danos|
 |Content Contributor(s) | Kilannin Krysiak|
 |Content Editor(s)/Reviewer(s) | Malachi Griffith|
