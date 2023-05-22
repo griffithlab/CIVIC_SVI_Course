@@ -2,7 +2,7 @@ introduction
 motivation
 target-audience
 curriculum
-resources-sops-and-guidelines-for-the-interpretation-of-somatic-variants
+resources-for-the-interpretation-of-somatic-variants
 learning-objectives
 ampascocap-guidelines
 amp-tiers-and-levels
