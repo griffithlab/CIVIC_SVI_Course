@@ -4,7 +4,7 @@ This course was created from [this GitHub template](https://github.com/jhudsl/OT
 
 This course was created with Bookdown and introduces best practices and tools for clinical interpretation of somatic cancer variants.
 
-You can see the [bookdown rendered course material here (GitHub pages site)](https://griffithlab.github.io/CIVIC_SVI_Course/index.html). 
+You can see the [bookdown rendered course material here (GitHub pages site)](https://griffithlab.github.io/CIVIC_SVI_Course/index.html) or the [leanpub course here](https://leanpub.com/c/introcivic). 
 
 ## About this course
 
