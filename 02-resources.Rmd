@@ -21,7 +21,7 @@ This section will introduce the AMP/ASCO/CAP guidelines for the Interpretation a
 
 This subsection will introduce the concept of AMP Tiers and Levels
 
-```{r, fig.align='center', out.width="100%", fig.width="100%", echo = FALSE, fig.alt= "The AMP/ASCO/CAP Standards and Guidelines classify somatic variants into four Tiers and four Levels according to their clinical significance and level of evidence"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The AMP/ASCO/CAP Standards and Guidelines classify somatic variants into four Tiers and four Levels according to their clinical significance and level of evidence"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_8")
 ```
 
