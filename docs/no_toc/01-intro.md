@@ -3,6 +3,8 @@
 
 # Introduction
 
+This course is currently under development. The topics to be covered are outlined below.
+
 ## Motivation
 
 With the advent of massively parallel sequencing, millions of raw sequence reads can no be easily produced for a patient's tumor. Largely automated pipelines now exist to process these raw data, detect various types of molecular alterations (or variants), filter and review to identify high-confidence calls, and annotate these variants for functional significance. However, a major bottleneck remains at the variant interpretation stage. Genome analysts, molecular pathologists, clinical geneticists, laboratory geneticists and others are faced with a deluge of variants of potential relevance [@Good2014]. These variants must be manually reviewed and intersected with a vast ecosystem of knowledgebases and biomedical literature to provide current interpretation of their relevance for clinical application.
