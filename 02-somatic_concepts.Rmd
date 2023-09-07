@@ -1,5 +1,5 @@
 
-# Resources for the Interpretation of Somatic Variants 
+# Introduction to Somatic Variants 
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
@@ -9,28 +9,54 @@ ottrpal::set_knitr_image_path()
 
 This chapter will cover:  
 
-- AMP/ASCO/CAP guidelines
-- ClinGen/CGC/VICC SOP
-- Cancer Variant Knowledgebases and their limitations
+- Somatic Variant Interpretation Bottleneck Problem
+- Next Generation Sequencing Techniques
+- Human Genome Reference
 
-## AMP/ASCO/CAP guidelines
+## Bottleneck Problem in Cancer Variant Interpretation
 
-This section will introduce the AMP/ASCO/CAP guidelines for the Interpretation and Reporting of Sequence Variants in Cancer [@Li2017].
+As next generation, massively parallel sequencing of tumor genomes has become integrated into clinical practice, a so-called bottleneck problem has arisen, where a large number of somatic tumor sequence variants need to be interpreted for their potential clinical impact. 
 
-### AMP Tiers and Levels
-
-This subsection will introduce the concept of AMP Tiers and Levels
-
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The AMP/ASCO/CAP Standards and Guidelines classify somatic variants into four Tiers and four Levels according to their clinical significance and level of evidence"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_8")
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The variant interpretation bottleneck"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_0")
 ```
 
-## ClinGen/CGC/VICC Oncogenicity SOP
+In order to address this problem, databases containing information on the clinical impact of tumor variants have been created. These databases may be the result of private efforts, and siloed for use by a particular group. A different approach is to create curated knowledge bases available to the community at cost, with these payments going to fund further curation. Yet another model is to create public knowledgebases for variant clinical interpretation which leverage public curation with expert moderation. 
 
-This section will introduce the Standards for the classification of pathogenicity of somatic variants in cancer (oncogenicity)[@Horak2022].
+The biomedical literature has been growing exponentially, including literature reporting new variants in cancer. This compounds the variant interpretation bottleneck as the number of variants in need of interpretation is not only large but also ever growing.
 
-## Knowledgebases
+The Genomic landscape of many tumor types has been explored, with the number of coding variants in a tumor type ranging from a few to thousands. Individual carry an inherited diploid genotype, referred to as germline, shared across all cells,containing common and rare variants relative to the human population. Individual cells in the body also develop spontaneous mutations, which are called somatic variants. Regularly dividing cells are especially susceptible to acquiring somatic mutations over the lifetime of an organism. As somatic mutations accumulate in cells, they become susceptible to precancerous or cancerous transformation. This is generally the result of mutations which disrupt the function of Tumor Suppressor genes, which are genes whose protein product functions within cells to regulate and halt the cell cycle, induce cellular differentiation, promote cell death via apoptosis, or other mechanisms which control cellular potential for malignancy. Cancer driving, or oncogenic mutations to tumor suppressors are generally of a reduced function or loss of function (LOF) type.  
 
-This section will introduce relevant resources for Somatic Cancer variant interpretation including [COSMIC](https://cancer.sanger.ac.uk/cosmic){target="_blank"}, [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/){target="_blank"}, [OncoKB](https://www.oncokb.org/){target="_blank"}, others. 
+Mutations may also promote cancer transformation via the activation of oncogenes, which are genes whose protein product is usually involved in promoting cellular growth in a regulated fashion, and can help drive uncontrolled growth when regulation is removed. Oncogenes are often part of growth signaling pathways such as those involving MAP or AKT kinases. A key phenomenon often observed with activation of oncogenes is termed oncogene addiction. This describes a phenomena whereby an activated oncogene drives uncontrolled cellular proliferation, but the cells become "addicted" to the presence of this oncogene, in that survival is dependent on its presence. This can be demonstrated with studies where knockdown of the oncogene, or inhibition of its function via inhibitors, induces cellular death. Oncogene addiction of driver mutations is a key mechanism explored in personalized cancer therapeutics, where the discovery of activated oncogenes in a tumor via sequencing opens up the possibility of targeted therapy for the patient. A third class of mutations key to cancer treatment are resistance mutations. These mutations typically arise during drug treatment and often interfere with the ability for a drug to bind effectively to its target. Drug resistance may also be induced by mutations or alterations to cancer cells that activate other pathways, circumventing the drug's effectiveness. The final major class of variants found in somatic tumors are passenger, or benign mutations. These variants may induce no important change to cellular behavior, or induce changes to the cell that play no role in promoting tumor formation, growth, survival, or any other hallmarks associated to cancer. 
+
+Tumor variants may be hard to detect due to having low allelic fractions and tumor heterogeneity, making variants difficult to distinguish from noise in the assays. Contamination from normal tissue also contributes to this effect. Further difficulties in detection arise from degradation associated to sample storage methods such as when working with formalin-fixed and paraffin-embedded (FFPE) samples.
+
+
+### Sequencing Background
+
+Genome sequencing work performed over multiple decades allowed for the first iteration of the human genome reference in the early 2000s, followed by sequencing of the first tumor genome.  
+
+This work has been greatly aided by the introduction of next generation sequencing (NGS). NGS techniques scale up sequencing to massively parallel processes numbering in the millions. NGS has largely been performed using techniques based on short-read generation (150 bp). These short reads will be aligned to a reference genome for analysis and discovery of variants in the sample. New technologies now utilize long multi kilobase reads, and these platforms can be used without alignment to a reference, being lined up at homologous regions of the individual reads instead. This technique allows for long-range haplotype analysis. 
+
+Short read technologies utilize a sequencing by synthesis (SBS) approach, which involves reading millions of parallel sequencing reactions utilizing fluorescent-labeled nucleotides during the synthesis of a complementary DNA strand to a short fragment. Due to advantages in cost and throughput, short read sequencing is favored in clinical applications. Therefore, clinical workflows to analyze NGS tumor data involve alignment to a reference followed by application of variant calling algorithms. Alignment data can be viewed using applications such as IGV (Figure). Alignment algorithms will generally identify the following classes of variants. 
+
+## Human Genome Reference
+
+The standard human genome reference currently used is provided by the Genome Reference Consortium (GRC). The official name for the current GRC human reference genome is Genome Reference Consortium Human Build 38. It is unofficially called hg38 in some resources. 
+
+This reference has high base-pair accuracy and good representation of repetitive and segmentally duplicated genomic regions. The assembly was generated with Sanger sequencing methods and large insert BAC clones (>150 kb inserts). DNA from multiple donors was utilized. The haplotypes from the different donors create different regions whose borders coincide with the underlying clone boundaries.
+
+There are multiple ways to represent, describe, name, and disambiguate variants. Resources like the ClinGen Allele Registry attempt to provide an unambiguous central resource defining particular variants, both at the level of exact DNA changes referencing specific genome build, and at more general levels such as protein changes (e.g. EGFR L858R). The Human Genome Variation Society (HGVS) provides another widely adopted solution, which is a nomenclature for the representation variants which is both human readable and also offers exact information on the variant.  
+
+For germline variant classification, a set of robust processes, data models, and guidelines have been developed. However, with the increased adoption of tumor sequencing in clinical practice, a parallel set of resources for interpretation of somatic variants are equally important. 
+
+Systems for classifying germline variant pathogenicity, such as those developed by ACMG and AMP have been adopted, and influenced subsequent developments for somatic variants. Key differences exist between these two areas of variant interpretation and classification, both in biology and clinical actionability. 
+
+In germline variant interpretation, emphasis is placed on the causal relation between the gene's variants and the associated disease. When these relations are not well defined, clinical action related to the variant is not escalated. In contrast, in somatic variants, while the causal underlying cancer biology of a variant is of clear interest, in clinical application the observation of variant actionability is prioritized above clear knowledge of mechanisms. If a variant is shown to induce tumor sensitivity to a certain drug, this will escalate and expand testing of the drug against the variant, and increase clinical adoption of the drug. Studies of the underlying biology will follow and deepen mechanistic understanding and guide the development of further drugs and potential variants, but will not directly influence clinical decisions. Another key difference occurs in the biology of germline and somatic tumor variants. Many somatic variants found in tumors would be embryonic lethal if they occurred in the germline.  
+
+
+## References
+
+
 
 
