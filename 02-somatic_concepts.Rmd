@@ -57,6 +57,8 @@ In germline variant interpretation, emphasis is placed on the causal relation be
 
 ## References
 
+International Human Genome Sequencing Consortium. 2001. Initial sequencing and analysis of the human genome. Nature 409: 860–921.
 
+Schneider V.A., Graves-Lindsay T., Howe K., Bouk N., Chen H.C., Kitts P.A., Murphy T.D., Pruitt K.D., Thibaud-Nissen F., Albracht D., et al. Evaluation of GRCh38 and de novo haploid genome assemblies demonstrates the enduring quality of the reference assembly. Genome Res. 2017;27:849–864.
 
 
