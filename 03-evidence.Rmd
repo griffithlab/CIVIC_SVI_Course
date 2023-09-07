@@ -1,1 +1,49 @@
+# Introduction to Somatic Evidence Types in Cancer 
+
+```{r, include = FALSE}
+ottrpal::set_knitr_image_path()
+```
+
+## Learning Objectives
+
+This chapter will cover:  
+
+- Three Somatic Clinically Actionable Evidence Types
+- Functional Evidence Based on Muller's Morphs
+- Oncogenic Evidence Based on The Hallmarks of Cancer
+
+## Somatic Clinically Actionable Evidence Types
+
+While germline classification of variants has focused on the link between disease causality and the variant, the most important classifications for somatic tumor variants are based on clinical actionability. The main categories of clinical actionability are Predictive/Therapeutic, Diagnostic, and Prognostic. 
+
+Predictive/Therapeutic evidence about a variant is associated to drug sensitivity induced by the variant in the tumor. This sets up the potential for targeted therapy, where in the ideal scenario, cells carrying the somatic variant are sensitized to drug treatment, but cells without the variant are unaffected. This model exploits the oncogene addiction mechanism, where inhibiting activity of a driver mutation will induce cell death. In reality, off target effects will be induced due to a wider spectrum of inhibition by the drug, which is usually against kinase activity, as well as other off target biological effects. 
+
+Prognostic evidence associated to a variant captures the general effect of a variant on patient outcome, ideally independant of treatment type. If it is seen within a general population of patients with a certain cancer type, that patients with a given variant do better (or worse) than patients without the variant, then this would be evidence supporting a positive (or negative) prognostic effect of the variant in this disease type.
+
+Diagnostic evidence captures the role a variant in distinguishing disease subtypes. (Example slide with different Ph-like cases). Governing bodies such as the World Health Organization (WHO) produce guidelines for disease classification which often incorporate the presence or absence of specific variants as diagnostic inclusion or exclusion criteria.
+
+## Somatic Functional and Oncogenic Evidence Distinction
+The discussion of functional evidence and oncogenic evidence in the next section will closely mirror the way these types of evidence are handled in the CIViC knowledgebase, which will be discussed in a later chapter. Other knowledgebases, such as OncoKB make similar distinctions between oncogenic and functional evidence
+
+## Functional Evidence and Muller's Morphs
+Somatic Functional Evidence is often derived from the Morphs of Muller, originally inferred from work in fly model systems. This system of functional evidence classification and annotation consists of six terms. Isomorphic variants cause no alteration to the protein function. Hypermorphic variants cause a gain of function (increased function) for the variant. Hyopmorphic cause a reduced protein function, and hypomorphic variants cause a total loss of function. Neomorphic variants induce novel function to the protein that would otherwise not be present. These annotations are usually drawn from in vitro functional assays that measure protein activity instead of theeffect of the variant on behavior of the cell, such as increased growth, or immunity to apoptosis.  
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The variant interpretation bottleneck"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1dmh51nAGA2sn6FR7D6anzqPFBoLNAmBYmEW9eccWCLE
+")
+```
+
+## Oncogenic Evidence and The Hallmarks of Cancer
+The oncogenicity of somatic variants is an additional evidence type that can play an important role in deterring the clinical usefulness of a mutation. Variants that are shown to have oncogenic driver potential may have clinical utility. Evidence is considered oncogenic when it demonstrates that the variant contributes to the appearance of one or more of the Hallmarks of Cancer in cells. Oncogenic evidence may carry clinical importance. For instance, demonstration that a novel EGFR variant is oncogenic can have clinical impact in some cases. For instance if a non small cell lung carcinoma has an unknown EGFR variant, but this variant can be shown to be oncogenic, then existing tyrosine kinase inhibitors established to target EGFR driver mutations are recommended to use. In contrast demonstration of a somatic variant to be a passenger mutation is also of important value in some cases. For instance the presence of KRAS mutations in colorectal cancer are a counterindication for use of EGFR inhibitors for treatment. But in the case of an unknown KRAS mutation in colorectal cancer, if it can be shown to be benign, then EGFR inhibition could potentially still be recommended.     
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The variant interpretation bottleneck"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1EF2yuqYgyG69sguUzecCEDupB_R8byN2X_fQpEJiRQU")
+```
+
+## References
+
+Danos, A. M. , Krysiak, K. , Barnell, E. K. , Coffman, A. C. , McMichael, J. F. , Kiwala, S. , Spies, N. C. , Sheta, L. M. , Pema, S. P. , Kujan, L. , Clark, K. A. , Wollam, A. Z. , Rao, S. , Ritter, D. I. , Sonkin, D. , Raca, G. , Lin, W. H. , Grisdale, C. J. , Kim, R. H. , … Griffith, O. L. (2019). Standard operating procedure for curation and clinical interpretation of variants in cancer. Genome Medicine, 11, 76.
+
+Hanahan D., Weinberg R.A.. Hallmarks of cancer: the next generation. Cell. 2011; 144:646–674.
+
 
