@@ -29,8 +29,7 @@ The discussion of functional evidence and oncogenic evidence in the next section
 Somatic Functional Evidence is often derived from the Morphs of Muller, originally inferred from work in fly model systems. This system of functional evidence classification and annotation consists of six terms. Isomorphic variants cause no alteration to the protein function. Hypermorphic variants cause a gain of function (increased function) for the variant. Hyopmorphic cause a reduced protein function, and hypomorphic variants cause a total loss of function. Neomorphic variants induce novel function to the protein that would otherwise not be present. These annotations are usually drawn from in vitro functional assays that measure protein activity instead of the effect of the variant on behavior of the cell, such as increased growth, or immunity to apoptosis.  
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The variant interpretation bottleneck"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dmh51nAGA2sn6FR7D6anzqPFBoLNAmBYmEW9eccWCLE
-")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1dmh51nAGA2sn6FR7D6anzqPFBoLNAmBYmEW9eccWCLE")
 ```
 
 ## Oncogenic Evidence and The Hallmarks of Cancer
