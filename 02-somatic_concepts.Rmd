@@ -34,7 +34,7 @@ Tumor variants may be hard to detect due to having low allelic fractions and tum
 
 ### Sequencing Background
 
-Genome sequencing work performed over multiple decades allowed for the first iteration of the human genome reference in the early 2000s, followed by sequencing of the first tumor genome.  
+Genome sequencing work performed over multiple decades allowed for the first iteration of the human genome reference in the early 2000s, followed by sequencing of the first tumor genome[@HumanGenome2001].  
 
 This work has been greatly aided by the introduction of next generation sequencing (NGS). NGS techniques scale up sequencing to massively parallel processes numbering in the millions. NGS has largely been performed using techniques based on short-read generation (150 bp). These short reads will be aligned to a reference genome for analysis and discovery of variants in the sample. New technologies now utilize long multi kilobase reads, and these platforms can be used without alignment to a reference, being lined up at homologous regions of the individual reads instead. This technique allows for long-range haplotype analysis. 
 
