@@ -102,7 +102,6 @@ et
 germline
 hg
 hypomorphic
-independant
 kb
 kilobase
 kinases
@@ -113,7 +112,6 @@ phenotypes
 segmentally
 siloed
 subtypes
-theeffect
 tyrosine
 vitro
 word
