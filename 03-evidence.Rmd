@@ -39,10 +39,3 @@ The oncogenicity of somatic variants is an additional evidence type that can pla
 ottrpal::include_slide("https://docs.google.com/presentation/d/1EF2yuqYgyG69sguUzecCEDupB_R8byN2X_fQpEJiRQU/edit#slide=id.p")
 ```
 
-## References
-
-Danos, A. M. , Krysiak, K. , Barnell, E. K. , Coffman, A. C. , McMichael, J. F. , Kiwala, S. , Spies, N. C. , Sheta, L. M. , Pema, S. P. , Kujan, L. , Clark, K. A. , Wollam, A. Z. , Rao, S. , Ritter, D. I. , Sonkin, D. , Raca, G. , Lin, W. H. , Grisdale, C. J. , Kim, R. H. , … Griffith, O. L. (2019). Standard operating procedure for curation and clinical interpretation of variants in cancer. Genome Medicine, 11, 76.
-
-Hanahan D., Weinberg R.A.. Hallmarks of cancer: the next generation. Cell. 2011; 144:646–674.
-
-
