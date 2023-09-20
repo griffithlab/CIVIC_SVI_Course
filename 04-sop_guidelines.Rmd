@@ -26,5 +26,5 @@ The ClinGen/CGC/VICC guidelines were published in 2022 [@Horak2022]. While earli
 
    
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The ClinGen/CGC/VICC guidelines for somatic variant oncogenicity"}
-ottrpal::include_slide("https://https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g28106c9f66a_0_7")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g28106c9f66a_0_7")
 ```
