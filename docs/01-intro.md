@@ -20,7 +20,7 @@ The course is intended for anyone seeking a better understanding of current best
 This course will teach learners to:
 
 - Understand key concepts of somatic cancer variant interpretation
-- Introduce ClinGen Somatic Cancer efforts
-- Introduce CIViC as a curation platform for somatic variant interpretation
+- Introduce ClinGen Somatic Cancer efforts 
 - Introduce key SOPs and guidelines for classifying the clinical relevance and oncogenicity of somatic cancer variants
-
+- Describe somatic variant knowledgebases
+- Introduce CIViC as a curation platform for somatic variant interpretation

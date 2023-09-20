@@ -1,0 +1,8 @@
+```{r, include = FALSE}
+ottrpal::set_knitr_image_path()
+```
+
+# Conclusions
+
+While some of the earliest forms of cancer treatment in the 20th century focused on targeting fast growing cells, somatic variant interpretations in cancer increasingly play an important role in the clinic, as targeting of specific variants has become a central part of patient treatment. This course has been designed to give an introductory overview of this growing field. Having worked through the course material, readers should gain familiarity with the reference genome, the basics of next generation sequencing, and alignment to the reference. The basic somatic variant types have been described, as well as evidence types associated to somatic variants in a clinical context. Guidelines covering somatic variant interpretation should be familiar to the reader. An overview of ClinGen and somatic variant interpretation knowledgebases has been provided, along with an overview of the CIViC knowledgebase. With this, students should be well versed in the basics of how somatic cancer variants are currently thought about and the impact they have on patient care in the clinic. Subsequent courses under development will cover the use of somatic variant interpretation guidelines and CIViC interface in more detail.
+

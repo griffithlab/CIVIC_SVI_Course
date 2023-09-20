@@ -3,9 +3,13 @@ chapter_name: "Chapter "
 repo: https://github.com/griffithlab/CIVIC_SVI_Course/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
-            "02-resources.Rmd",
-            "03-civic_tour.Rmd",
-            "04-conclusions.Rmd",
+            "02-somatic_concepts.Rmd",
+            "03-evidence.Rmd",
+            "04-sop_guidelines.Rmd",
+            "05-clingen.Rmd",
+            "06-knowledgebases.Rmd",
+            "07-civic_overview.Rmd",
+            "08-conclusions.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
