@@ -1,8 +1,12 @@
 About-this-Course.md
 1-Introduction.md
-2-Resources-for-the-Interpretation-of-Somatic-Variants.md
-3-Introduction-to-the-CIViC-knowledgebase.md
-4-Conclusions.md
+2-Introduction-to-Somatic-Variants.md
+3-Introduction-to-Somatic-Evidence-Types-in-Cancer.md
+4-Somatic-Variant-Classification-Guidelines.md
+5-Introduction-to-ClinGen.md
+6-Introduction-to-Cancer-Variant-Knowledgebases.md
+7-Introduction-to-the-CIViC-knowledgebase.md
+8-Conclusions.md
 quiz_1.md
-5-References.md
+9-References.md
 About-the-Authors.md
