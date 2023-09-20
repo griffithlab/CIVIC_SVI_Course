@@ -40,4 +40,4 @@ My Cancer Genome gives information on cancer variant oncogenicity, therapeutic i
 
 ### Foundation One
 
-Foundation One provides tests for solid tumor as well as a liquid tumors. These tests take a tissue sample or a blood draw and search a panel of 300+ genes for cancer-relevant mutations. The tests are FDA-approved for discovery of relevant variants for targeted therapy, immunotherapy, or clinical trial options for the patient. An internal knowledgebase is curated and maintained in order to provide variant intepretations along with generated reports.
+Foundation One provides tests for solid tumor as well as a liquid tumors. These tests take a tissue sample or a blood draw and search a panel of 300+ genes for cancer-relevant mutations. The tests are FDA-approved for discovery of relevant variants for targeted therapy, immunotherapy, or clinical trial options for the patient. An internal knowledgebase is curated and maintained in order to provide variant interpretations along with generated reports.

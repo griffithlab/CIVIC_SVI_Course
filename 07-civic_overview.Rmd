@@ -33,7 +33,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLg
 
 ## Introduction to the CIViC web interface
 
-The CIViC web interface provides an interactive portal for browsing and searching exising cancer variants, evidence and assertions. It also provides a sophisticated curation interface for submitting new evidence or assertions, revisions to exising content, or comments. A brief tour of the [CIViC v2](https://civicdb.org){target="_blank"} interface is available here:
+The CIViC web interface provides an interactive portal for browsing and searching existing cancer variants, evidence and assertions. It also provides a sophisticated curation interface for submitting new evidence or assertions, revisions to exising content, or comments. A brief tour of the [CIViC v2](https://civicdb.org){target="_blank"} interface is available here:
  
 ```{r, echo=FALSE}
 knitr::include_url("https://www.youtube.com/embed/bpVkSP7qvgc")
