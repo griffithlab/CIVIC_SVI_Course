@@ -1,0 +1,41 @@
+# Introduction to Cancer Variant Knowledgebases
+
+
+
+## Learning Objectives
+
+This chapter will cover:  
+
+- COSMIC
+- ClinVar
+- OncoKB
+- My Cancer Genome
+- Foundation One
+
+## Types of Cancer Variant Knowledgebases
+
+There are a large number of types and examples of variant knowledgebases of relevance to cancer. Some knowledgebases aggregate observations of cancer variants across large cohorts of sequenced tumors (e.g., COSMIC), others document variants observed in patients and classified as clinically relevant for human disease including cancer (e.g., ClinVar). Still others detail evidence and assertions of clinical relevance of cancer variants based on published literature (e.g., OncoKB, MyCancerGenome, etc). Subsequent chapters and companion courses in this series will focus on the [CIViC knowledgebase](https://civicdb.org). Here we introduce several of the other key/relevant knowledgebases for somatic variant interpretation.
+
+### COSMIC
+
+COSMIC (the Catalogue of Somatic Mutations in Cancer) is a data resource that holds the largest collection of somatic mutations observed in cancers. The COSMIC database combines two main types of data, information curated from multiple sources, and a collection of genomes. Curated information is taken from targeted gene-screening panels, a collection of literature (over 27,000 peer reviewed papers), Metadata (environmental factors and patient history), and frequency data for mutations which takes mutation negative samples into account. The genome based data is drawn from over 37,000 genomes and is pulled from different sources including TCGA (The Cancer Genome Atlas) and ICGC (International Cancer Genome Consortium). 
+
+### ClinVar
+
+ClinVar captures reports on the relationship between human variation and phenotypes. Submitters to ClinVar include laboratories, researchers, and variant interpretation knowledgebases. The majority of submissions to ClinVar involve germline variation, and the ACMG/AMP Guidelines for interpretation of germline variant pathogenicity are supported for submitters, as are in house interpretation protocols utilized by the submitter. Submissions are rated utilizing a review status which varies from zero to four stars. Submitters who provide assertion criteria which were used for variant classification are able to submit with one star status. Groups may apply for Expert Panel status to ClinVar. If this Expert Panel status is achieved, then submissions from the group are rated with three star status. Four star submission status is granted to groups recognized by ClinVar with Practice Guideline status. Submissions that do not meet any of the above are accepted but labeled with zero stars. 
+
+Submissions may consist of a representation of an allele and its interpretation, or multiple types of structured observational or experimental evidence about the effect of the variation on the phenotype. A somatic variant data model is being developed by ClinVar with various stakeholders in the cancer variant space including developers of the AMP/ASCO/CAP Guidelines, the CIViC knowledgebase (see below), and others, to better accommodate submissions for clinical interpretations of cancer variants. 
+
+### OncoKB
+
+OncoKB is a Memorial Sloan Kettering Cancer Center Precision Oncology knowledgebase. The curated knowledgebase contains information on clinical cancer variant interpretations, as well as information on cancer variant oncogenicity. OncoKB uses an in house system of evidence levels for clinical tiering of cancer variants. Specific sets of evidence levels exist for Predictive/Therapeutic, Diagnostic, and Prognostic evidence types. Variant Oncogenicity is classified for variants, along with annotations for gain of function or loss of function. Links to literature are also provided by the knowledgebase. 
+
+OncoKB provides a list of therapeutically actionable genes (over 165), and over 130 associated drugs, which is organized by cancer type as well as specific alteration. A separate list of genes provides oncogenicity/tumor suppressor classifications, as well as presence of the gene on cancer gene panels such as MSK-Impact or Foundation One (see below). 
+
+###  My Cancer Genome
+
+My Cancer Genome gives information on cancer variant oncogenicity, therapeutic implications, and available clinical trials. Curated assertions in My Cancer Genome are housed in a Knowledge Management System (KMS). The KMS houses the the biomarker, disease, and drug ontology information, as well as the biomarker-driven cancer clinical trials. The KMS also contains therapeutic, prognostic, and diagnostic assertions, along with unstructured content describing pathways and molecular testing techniques. Therapeutic assertions are biomarker, drug, and disease specific. These assertions are manually curated from drug approvals, treatment guidelines, and literature review. The publicly available AACR Project GENIE genomic alteration dataset is used to calculate biomarker and disease frequency data displayed in the overview section. 
+
+### Foundation One
+
+Foundation One provides tests for solid tumor as well as a liquid tumors. These tests take a tissue sample or a blood draw and search a panel of 300+ genes for cancer-relevant mutations. The tests are FDA-approved for discovery of relevant variants for targeted therapy, immunotherapy, or clinical trial options for the patient. An internal knowledgebase is curated and maintained in order to provide variant interpretations along with generated reports.
