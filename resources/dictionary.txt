@@ -66,7 +66,7 @@ GRCh
 Grisdale
 HGVS
 Hanahan
-Hyopmorphic
+Hypomorphic
 Hypermorphic
 IGV
 KRAS
