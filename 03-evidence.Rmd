@@ -28,14 +28,14 @@ The discussion of functional evidence and oncogenic evidence in the next section
 ## Functional Evidence and Muller's Morphs
 Somatic Functional Evidence is often derived from the Morphs of Muller, originally inferred from work in fly model systems. This system of functional evidence classification and annotation consists of six terms. Isomorphic variants cause no alteration to the protein function. Hypermorphic variants cause a gain of function (increased function) for the variant. Hyopmorphic cause a reduced protein function, and hypomorphic variants cause a total loss of function. Neomorphic variants induce novel function to the protein that would otherwise not be present. These annotations are usually drawn from in vitro functional assays that measure protein activity instead of the effect of the variant on behavior of the cell, such as increased growth, or immunity to apoptosis.  
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The variant interpretation bottleneck"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The Morphs of Mueller"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1dmh51nAGA2sn6FR7D6anzqPFBoLNAmBYmEW9eccWCLE/edit#slide=id.p")
 ```
 
 ## Oncogenic Evidence and The Hallmarks of Cancer
 The oncogenicity of somatic variants is an additional evidence type that can play an important role in deterring the clinical usefulness of a mutation. Variants that are shown to have oncogenic driver potential may have clinical utility. Evidence is considered oncogenic when it demonstrates that the variant contributes to the appearance of one or more of the Hallmarks of Cancer[@Hanahan2011] in cells. Oncogenic evidence may carry clinical importance. For instance, demonstration that a novel EGFR variant is oncogenic can have clinical impact in some cases. For instance if a non small cell lung carcinoma has an unknown EGFR variant, but this variant can be shown to be oncogenic, then existing tyrosine kinase inhibitors established to target EGFR driver mutations are recommended to use. In contrast demonstration of a somatic variant to be a passenger mutation is also of important value in some cases. For instance the presence of KRAS mutations in colorectal cancer are a counterindication for use of EGFR inhibitors for treatment. But in the case of an unknown KRAS mutation in colorectal cancer, if it can be shown to be benign, then EGFR inhibition could potentially still be recommended.     
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The variant interpretation bottleneck"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The Hallmarks of Cancer"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1EF2yuqYgyG69sguUzecCEDupB_R8byN2X_fQpEJiRQU/edit#slide=id.p")
 ```
 
