@@ -10,11 +10,11 @@ These credits are based on [course contributors guidelines described here](https
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor(s)|[Obi Griffith], [Malachi Griffith]|
-|Lecturer(s)| Arpad Danos|
-|Content Author(s) | Arpad Danos|
-|Content Contributor(s) | Kilannin Krysiak|
-|Content Editor(s)/Reviewer(s) | Malachi Griffith|
-|Content Director(s) | |
+|Lecturer(s)| [Arpad Danos[|
+|Content Author(s) | [Arpad Danos], [Obi Griffith]|
+|Content Contributor(s) | Kilannin Krysiak, [Malachi Griffith]|
+|Content Editor(s)/Reviewer(s) | [Obi Griffith], [Malachi Griffith]|
+|Content Director(s) | [Obi Griffith], [Malachi Griffith]|
 |Content Consultants | |
 |Acknowledgments| |
 |**Production**| |
@@ -29,7 +29,7 @@ These credits are based on [course contributors guidelines described here](https
 |**Art and Design**||
 |Illustrator(s)| Josh McMichael|
 |Figure Artist(s)| Josh McMichael|
-|Videographer(s)| Arpad Danos |
+|Videographer(s)| [Arpad Danos] |
 |Videography Editor(s)| |
 |Audiographer(s)| |
 |Audiography Editor(s)| |
@@ -42,6 +42,7 @@ These credits are based on [course contributors guidelines described here](https
 
 [Obi Griffith]: https://griffithlab.org
 [Malachi Griffith]: https://griffithlab.org
+[Arpad Danos]: https://griffithlab.org
 [John Muschelli]: https://johnmuschelli.com/
 [Candace Savonen]: https://www.cansavvy.com/
 [Carrie Wright]: https://carriewright11.github.io/

@@ -1,0 +1,30 @@
+# Introduction to the CIViC knowledgebase
+
+
+
+## Learning Objectives
+
+This chapter will cover:  
+
+- Overview of the CIViC Data Model
+- Introduction to the CIViC interface
+
+## CIViC Evidence
+
+The core concept of CIViC is an Evidence item linked to a Source (PubMed, ASCO or ASH). CIViC Evidence items include a human-readable evidence statement and structured fields which support (or refute) a specific clinical significance for a specific Gene/Variant in a specific Disease context with optional phenotypes. These evidence statements are categorized into six types: Predictive (of drug response), Diagnostic, Prognostic, Predisposing, Oncogenic or Functional. Each have different Clinical Significance values (e.g., Sensitivity, Resistance, etc for Predictive). Evidence is further categorized according to Level (A - Validated through E - Inferential) and rating (1-star through 5-star).
+
+<img src="resources/images/07-civic_overview_files/figure-html//1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo_g22509046821_0_14.png" title="The core element of CIViC is the evidence item (or EID) which includes an unstructured, human-readable evidence statement and multiple structured elements briefly describing a key piece of evidence from the biomedical literature related to the clinical interpretation of cancer variants. Evidence is linked to a molecular profile (variant) for a specific gene, disease, and optional phenotype. Evidence is further categorized into 6 types and 5 levels as shown." alt="The core element of CIViC is the evidence item (or EID) which includes an unstructured, human-readable evidence statement and multiple structured elements briefly describing a key piece of evidence from the biomedical literature related to the clinical interpretation of cancer variants. Evidence is linked to a molecular profile (variant) for a specific gene, disease, and optional phenotype. Evidence is further categorized into 6 types and 5 levels as shown." width="100%" style="display: block; margin: auto;" />
+
+## CIViC Somatic Assertions
+
+CIViC Assertions summarize a collection of Evidence Items for a given variant and disease. Furthermore, Assertions associate a guideline based evaluation to the variant within the given disease context. Evidence for a variant can come from multiple types of published reports. For some established variants, evidence will have been published describing preclinical research, case studies, clinical trails, and regulatory approvals. In this case, a higher tier will be applied. For instance, a Predictive Assertion describing the sensitivity of EGFR L858R to afatinib in non small cell lung cancer might receive AMP/ASCO/CAP Tier I Level A, since this treatment is FDA approved for the given variant and disease. Assertions of variant oncogenicity will also evaluate evidence from multiple sources, including CIViC Evidence Items, as well as data reported from other resources such as the gnomAD database of population frequencies. The summation of this collection of evidence will result in an oncogenicity evaluation based on the ClinGen/CGC/VICC guidelines.   
+
+<img src="resources/images/07-civic_overview_files/figure-html//1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo_g28106c9f66a_0_10.png" title="CIViC Assertions summarize a collection of evidence into a state of the field assesment of the variant" alt="CIViC Assertions summarize a collection of evidence into a state of the field assesment of the variant" width="100%" style="display: block; margin: auto;" />
+
+<img src="resources/images/07-civic_overview_files/figure-html//1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo_g28106c9f66a_0_13.png" title="CIViC Assertions are tied to established and emerging guidelines" alt="CIViC Assertions are tied to established and emerging guidelines" width="100%" style="display: block; margin: auto;" />
+
+## Introduction to the CIViC web interface
+
+The CIViC web interface provides an interactive portal for browsing and searching existing cancer variants, evidence and assertions. It also provides a sophisticated curation interface for submitting new evidence or assertions, revisions to exising content, or comments. A brief tour of the [CIViC v2](https://civicdb.org){target="_blank"} interface is available here:
+ 
+<iframe src="https://www.youtube.com/embed/bpVkSP7qvgc" width="672" height="400px"></iframe>
