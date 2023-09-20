@@ -1,8 +1,12 @@
 url	chapt_title	img_path
 https://course.civicdb.org/no_toc/index.html	About this Course	resources/chapt_screen_images/index.png
 https://course.civicdb.org/no_toc/introduction.html	1 Introduction	resources/chapt_screen_images/introduction.png
-https://course.civicdb.org/no_toc/resources-for-the-interpretation-of-somatic-variants.html	2 Resources for the Interpretation of Somatic Variants	resources/chapt_screen_images/resources-for-the-interpretation-of-somatic-variants.png
-https://course.civicdb.org/no_toc/introduction-to-the-civic-knowledgebase.html	3 Introduction to the CIViC knowledgebase	resources/chapt_screen_images/introduction-to-the-civic-knowledgebase.png
-https://course.civicdb.org/no_toc/conclusions.html	4 Conclusions	resources/chapt_screen_images/conclusions.png
+https://course.civicdb.org/no_toc/introduction-to-somatic-variants.html	2 Introduction to Somatic Variants	resources/chapt_screen_images/introduction-to-somatic-variants.png
+https://course.civicdb.org/no_toc/introduction-to-somatic-evidence-types-in-cancer.html	3 Introduction to Somatic Evidence Types in Cancer	resources/chapt_screen_images/introduction-to-somatic-evidence-types-in-cancer.png
+https://course.civicdb.org/no_toc/somatic-variant-classification-guidelines.html	4 Somatic Variant Classification Guidelines	resources/chapt_screen_images/somatic-variant-classification-guidelines.png
+https://course.civicdb.org/no_toc/introduction-to-clingen.html	5 Introduction to ClinGen	resources/chapt_screen_images/introduction-to-clingen.png
+https://course.civicdb.org/no_toc/introduction-to-cancer-variant-knowledgebases.html	6 Introduction to Cancer Variant Knowledgebases	resources/chapt_screen_images/introduction-to-cancer-variant-knowledgebases.png
+https://course.civicdb.org/no_toc/introduction-to-the-civic-knowledgebase.html	7 Introduction to the CIViC knowledgebase	resources/chapt_screen_images/introduction-to-the-civic-knowledgebase.png
+https://course.civicdb.org/no_toc/conclusions.html	8 Conclusions	resources/chapt_screen_images/conclusions.png
 https://course.civicdb.org/no_toc/about-the-authors.html	About the Authors	resources/chapt_screen_images/about-the-authors.png
-https://course.civicdb.org/no_toc/references.html	5 References	resources/chapt_screen_images/references.png
+https://course.civicdb.org/no_toc/references.html	9 References	resources/chapt_screen_images/references.png
