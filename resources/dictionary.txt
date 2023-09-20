@@ -2,13 +2,11 @@ AACR
 ABL
 ACMG
 actionability
-actionablilty
 afatinib
 AKT
 al
 Albracht
 allelic
-allignment
 amorphic
 AnVIL
 ASCO
@@ -81,7 +79,6 @@ immunotherapy
 impactful
 Indels
 indels
-independant
 ITCR
 itcrtraining
 ITN
@@ -119,10 +116,8 @@ oncogenic
 oncogenicity
 OncoKB
 oncoKB
-OnkoKB
 ottrpal
 Pandoc
-Parimony
 pathogenicity
 Pema
 Ph
@@ -153,7 +148,6 @@ tetramer
 TGA
 TGC
 th
-theeffect
 Thibaud
 tiering
 Translocations
