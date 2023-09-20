@@ -20,7 +20,7 @@ Predictive/Therapeutic evidence about a variant is associated to drug sensitivit
 
 Prognostic evidence associated to a variant captures the general effect of a variant on patient outcome, ideally independent of treatment type. If it is seen within a general population of patients with a certain cancer type, that patients with a given variant do better (or worse) than patients without the variant, then this would be evidence supporting a positive (or negative) prognostic effect of the variant in this disease type.
 
-Diagnostic evidence captures the role a variant in distinguishing disease subtypes. (Example slide with different Ph-like cases). Governing bodies such as the World Health Organization (WHO) produce guidelines for disease classification which often incorporate the presence or absence of specific variants as diagnostic inclusion or exclusion criteria.
+Diagnostic evidence captures the role a variant in distinguishing disease subtypes. Governing bodies such as the World Health Organization (WHO) produce guidelines for disease classification which often incorporate the presence or absence of specific variants as diagnostic inclusion or exclusion criteria.
 
 ## Somatic Functional and Oncogenic Evidence Distinction
 The discussion of functional evidence and oncogenic evidence in the next section will closely mirror the way these types of evidence are handled in the CIViC knowledgebase [@Danos2019], which will be discussed in a later chapter. Other knowledgebases, such as OncoKB [@Chakravarty2017] make similar distinctions between oncogenic and functional evidence
