@@ -23,7 +23,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLg
 ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_14")
 ```
 
+## CIViC Somatic Assertions
 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The core element of CIViC is the evidence item (or EID) which includes an unstructured, human-readable evidence statement and multiple structured elements briefly describing a key piece of evidence from the biomedical literature related to the clinical interpretation of cancer variants. Evidence is linked to a molecular profile (variant) for a specific gene, disease, and optional phenotype. Evidence is further categorized into 6 types and 5 levels as shown."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_14")
+```
 
 ## Tour of the CIViC web interface
 
