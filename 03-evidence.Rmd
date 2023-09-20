@@ -25,14 +25,14 @@ Diagnostic evidence captures the role a variant in distinguishing disease subtyp
 ## Somatic Functional and Oncogenic Evidence Distinction
 The discussion of functional evidence and oncogenic evidence in the next section will closely mirror the way these types of evidence are handled in the CIViC knowledgebase [@Danos2019], which will be discussed in a later chapter. Other knowledgebases, such as OncoKB [@Chakravarty2017] make similar distinctions between oncogenic and functional evidence
 
-## Functional Evidence and Muller's Morphs
+### Functional Evidence and Muller's Morphs
 Somatic Functional Evidence is often derived from (or inspired by) the Morphs of Muller, originally inferred from work in fly model systems. This system of functional evidence classification and annotation consists of six terms. Isomorphic variants cause no alteration to the protein function. Hypermorphic variants cause a gain of function (increased function) for the variant. Hypomorphic variants cause a reduced protein function, and amorphic variants cause a total loss of function. Neomorphic variants induce novel function to the protein that would otherwise not be present. These annotations are usually drawn from in vitro functional assays that measure protein activity instead of the effect of the variant on behavior of the cell, such as increased growth, or immunity to apoptosis.  
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The Morphs of Mueller"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g281c92b8708_0_0")
 ```
 
-## Oncogenic Evidence and The Hallmarks of Cancer
+### Oncogenic Evidence and The Hallmarks of Cancer
 The oncogenicity of somatic variants is an additional evidence type that can play an important role in determining the clinical usefulness of a mutation. Variants that are shown to have oncogenic driver potential may also have clinical utility. Evidence is considered oncogenic when it demonstrates that the variant contributes to the appearance of one or more of the Hallmarks of Cancer [@Hanahan2011] in cells. Demonstration that a novel variant is oncogenic can have clinical impact in some cases. For instance if a non small cell lung carcinoma has an unknown EGFR variant, but this variant can be shown to be oncogenic, then existing tyrosine kinase inhibitors established to target EGFR driver mutations are recommended to use. In contrast demonstration of a somatic variant to be a passenger (benign) mutation is also of important value in some cases. For instance the presence of KRAS mutations in colorectal cancer are a counterindication for use of EGFR inhibitors for treatment. But in the case of an unknown KRAS mutation in colorectal cancer, if it can be shown to be benign, then EGFR inhibition could potentially still be recommended.     
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The Hallmarks of Cancer"}

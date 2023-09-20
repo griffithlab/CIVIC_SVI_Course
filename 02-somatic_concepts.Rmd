@@ -33,7 +33,7 @@ Mutations may also promote cancer transformation via the activation of oncogenes
 
 Tumor variants may be hard to detect due to having low allelic fractions and tumor heterogeneity, making variants difficult to distinguish from noise in the assays. Contamination from normal tissue also contributes to this effect. Further difficulties in detection arise from degradation associated to sample storage methods such as when working with formalin-fixed and paraffin-embedded (FFPE) samples.
 
-### Sequencing Background
+## Sequencing Background
 
 Genome sequencing work performed over multiple decades allowed for the first iteration of the human genome reference in the early 2000s[@HumanGenome2001], followed by sequencing of the first tumor genome[@Ley2008].  
 
@@ -41,7 +41,7 @@ This work has been greatly aided by the introduction of next generation sequenci
 
 Short read technologies typically utilize a sequencing by synthesis (SBS) approach, which involves reading millions of parallel sequencing reactions utilizing fluorescent-labeled nucleotides during the synthesis of a complementary DNA strand to a short fragment. Due to advantages in cost and throughput, short read sequencing is currently predominant in clinical applications. Therefore, clinical workflows to analyze NGS tumor data involve alignment to a reference genome followed by application of variant calling algorithms. Alignment data can be viewed using applications such as IGV (see Figure). Alignment algorithms allow identification of a range of different classes of variants. 
 
-## Human Genome Reference
+### Human Genome Reference
 
 The human genome reference most commonly used, at present, is provided by the Genome Reference Consortium (GRC). The official name for the current GRC human reference genome is Genome Reference Consortium Human Build 38. It is unofficially called hg38 in some resources. 
 
