@@ -41,3 +41,27 @@ Here is a brief tour of the [CIViC v2](https://civicdb.org){target="_blank"} int
  
 ```{r, echo=FALSE}
 knitr::include_url("https://www.youtube.com/embed/bpVkSP7qvgc")
+## CIViC Somatic Assertions
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The core element of CIViC is the evidence item (or EID) which includes an unstructured, human-readable evidence statement and multiple structured elements briefly describing a key piece of evidence from the biomedical literature related to the clinical interpretation of cancer variants. Evidence is linked to a molecular profile (variant) for a specific gene, disease, and optional phenotype. Evidence is further categorized into 6 types and 5 levels as shown."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_14")
+```
+
+## CIViC Somatic Assertions
+
+CIViC Assertions summarize a collection of Evidence Items for a given variant and disease. Furthermore, Assertions associate a guideline based evaluation to the variant within the given disease context. Evidence for a variant can come from multiple types of published reports. For some established variants, evidence will have been published describing preclinical research, case studies, clinical trails, and regulatory approvals. In this case, a higher tier will be applied. For instance, a Predictive Assertion describing the sensitivity of EGFR L858R to afatinib in non small cell lung cancer will receive AMP/ASCO/CAP Tier I Level A, since this treatment is FDA approved for the given variant and disease. Assertions of variant oncogenicity will evaluate evidence from multiple sources, including CIViC Evidence Items, as well as data reported from other resources such as the gnomAD database of population frequencies. The summation of this collection of evidence will result in an oncogenicity evaluation based on the ClinGen/CGC/VICC guidelines.   
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "CIViC Assertions summarize a collection of evidence into a state of the field assesment of the variant"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g28106c9f66a_0_10")
+```
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "CIViC Assertions are tied to established and emerging guidelines"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g28106c9f66a_0_13")
+```
+
+## Tour of the CIViC web interface
+
+Here is a brief tour of the [CIViC v2](https://civicdb.org){target="_blank"} interface:
+ 
+```{r, echo=FALSE}
+knitr::include_url("https://www.youtube.com/embed/bpVkSP7qvgc")
