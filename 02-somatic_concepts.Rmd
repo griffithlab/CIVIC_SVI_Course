@@ -44,7 +44,7 @@ Short read technologies utilize a sequencing by synthesis (SBS) approach, which 
 
 The standard human genome reference currently used is provided by the Genome Reference Consortium (GRC). The official name for the current GRC human reference genome is Genome Reference Consortium Human Build 38. It is unofficially called hg38 in some resources. 
 
-This reference has high base-pair accuracy and good representation of repetitive and segmentally duplicated genomic regions. The assembly was generated with Sanger sequencing methods and large insert BAC clones (>150 kb inserts). DNA from multiple donors was utilized. The haplotypes from the different donors create different regions whose borders coincide with the underlying clone boundaries.
+This reference has high base-pair accuracy and good representation of repetitive and segmentally duplicated genomic regions. The assembly was generated with Sanger sequencing methods and large insert BAC clones (>150 kb inserts). DNA from multiple donors was used. The haplotypes from the different donors create different regions whose borders coincide with the underlying clone boundaries.
 
 There are multiple ways to represent, describe, name, and disambiguate variants. Resources like the ClinGen Allele Registry attempt to provide an unambiguous central resource defining particular variants, both at the level of exact DNA changes referencing specific genome build, and at more general levels such as protein changes (e.g. EGFR L858R). The Human Genome Variation Society (HGVS) provides another widely adopted solution, which is a nomenclature for the representation variants which is both human readable and also offers exact information on the variant.  
 
