@@ -24,9 +24,9 @@ ClinVar captures reports on the relationship between human variation and phenoty
 
 Submissions may consist of a representation of an allele and its interpretation, or multiple types of structured observational or experimental evidence about the effect of the variation on the phenotype. A somatic variant data model is being developed by ClinVar with various stakeholders in the cancer variant space such as developers of the AMP/ASCO/CAP Guidelines, or the CIViC knowledgebase (see below) to better accommodate submissions for clinical interpretations of cancer variants. 
 
-## OnkoKB
+## OncoKB
 
-OnkoKB is a Memorial Sloan Kettering Cancer Center Precision Oncology knowledgebase. The curated knowledgebase contains information on clinical cancer variant interpretations, as well as information on cancer variant oncogenicity. OncoKB uses an in house system of evidence levels for clinical tiering of cancer variants. Specific sets of evidence levels exist for Predictive/Therapeutic, Diagnostic, and Prognostic evidence types. Variant Oncogenicity is classified for variants, along with annotations for gain of function or loss of function. Links to literature are also provided by the knowledgebase. 
+OncoKB is a Memorial Sloan Kettering Cancer Center Precision Oncology knowledgebase. The curated knowledgebase contains information on clinical cancer variant interpretations, as well as information on cancer variant oncogenicity. OncoKB uses an in house system of evidence levels for clinical tiering of cancer variants. Specific sets of evidence levels exist for Predictive/Therapeutic, Diagnostic, and Prognostic evidence types. Variant Oncogenicity is classified for variants, along with annotations for gain of function or loss of function. Links to literature are also provided by the knowledgebase. 
 
 OncoKB provides a list of therapeutically actionable genes (over 165), and over 130 associated drugs, which is organized by cancer type as well as specific alteration. A separate list of genes provides oncogenicity/tumor suppressor classifications, as well as presence of the gene on cancer gene panels such as MSK-Impact or Foundation One (see below). 
 
