@@ -16,7 +16,7 @@ This chapter will cover:
 
 ## COSMIC
 
-COSMIC (the Catalogue of Somatic Mutations in Cancer) is a data resource and holds the largest collection somatic mutations observed in cancers. The COSMIC database combines two main types of data, information curated from multiple sources, and a collection of genomes. Curated information is taken from targeted gene-screening panels, a collection of literature (over 27,000 peer reviewed papers), Metadata (environmental factors and patient history), and frequeny data for mutations which takes mutation negative samples into account. The genome based data is drawn from over 37,000 genomes and is pulled from different sources including TCGA (The Cancer Genome Atlas) and ICGC (International Cancer Genome Consortium). 
+COSMIC (the Catalogue of Somatic Mutations in Cancer) is a data resource and holds the largest collection somatic mutations observed in cancers. The COSMIC database combines two main types of data, information curated from multiple sources, and a collection of genomes. Curated information is taken from targeted gene-screening panels, a collection of literature (over 27,000 peer reviewed papers), Metadata (environmental factors and patient history), and frequency data for mutations which takes mutation negative samples into account. The genome based data is drawn from over 37,000 genomes and is pulled from different sources including TCGA (The Cancer Genome Atlas) and ICGC (International Cancer Genome Consortium). 
 
 ## ClinVar
 
