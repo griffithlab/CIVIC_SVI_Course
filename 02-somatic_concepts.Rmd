@@ -21,7 +21,7 @@ As next generation, massively parallel sequencing of tumor genomes has become in
 ottrpal::include_slide("https://docs.google.com/presentation/d/1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo/edit#slide=id.g22509046821_0_0")
 ```
 
-In order to address this problem, databases containing information on the clinical impact of tumor variants have been created. These databases may be the result of private efforts, and siloed for use by a particular group. A different approach is to create curated knowledge bases available to the community at cost, with these payments going to fund further curation. Yet another model is to create public knowledgebases for variant clinical interpretation which leverage public curation with expert moderation. 
+In order to address this problem, databases containing information on the clinical impact of tumor variants have been created. These databases may be the result of private efforts and siloed for use by a particular group. A different approach is to create curated knowledgebases available to the community at cost with payments going to fund further curation. Yet another model is to create public knowledgebases for variant clinical interpretation which leverage public curation with expert moderation. 
 
 The biomedical literature has been growing exponentially, including literature reporting new variants in cancer. This compounds the variant interpretation bottleneck as the number of variants in need of interpretation is not only large but also ever growing.
 
