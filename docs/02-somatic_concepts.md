@@ -17,7 +17,7 @@ This chapter will cover:
 
 As next generation, massively parallel sequencing of tumor genomes has become integrated into clinical practice, a so-called bottleneck problem has arisen, where a large number of somatic tumor sequence variants need to be interpreted for their potential clinical impact. 
 
-<img src="resources/images/02-somatic_concepts_files/figure-html//1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo_g22509046821_0_0.png" title="The variant interpretation bottleneck" alt="The variant interpretation bottleneck" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-somatic_concepts_files/figure-html//1zwvAVLWpN2mKrJLgo5ZcAuSKQrHZ8zunIYHLe-w6bBo_g22509046821_0_0.png" alt="The variant interpretation bottleneck" width="100%" style="display: block; margin: auto;" />
 
 In order to address this problem, databases containing information on the clinical impact of tumor variants have been created. These databases may be the result of private efforts and siloed for use by a particular group. Some efforts curate knowledgebases available to the community with access fees that go towards funding further curation. Yet another model is to create free public knowledgebases for variant clinical interpretation which leverage public curation and expert moderation. 
 

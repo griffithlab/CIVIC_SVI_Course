@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Clinical Interpretation of Somatic Cancer Variants"
-date: "September, 2023"
+date: "June, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
